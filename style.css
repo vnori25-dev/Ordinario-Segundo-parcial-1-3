@@ -1,0 +1,121 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.main-wrapper {
+    width: 100%;
+    max-width: 750px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+
+.nav-container {
+    display: flex;
+    width: 100%;
+    border: 2px solid #1c456b;
+    background-color: #4b82b3;
+}
+
+.nav-item {
+    flex: 1;
+    text-align: center;
+    padding: 14px 0;
+    color: #122c4d;
+    text-decoration: none;
+    font-size: 16px;
+    border-right: 2px solid #1c456b;
+}
+
+.nav-item:last-child {
+    border-right: none;
+}
+
+.tab-productos {
+    background-color: #8ccce5;
+    font-weight: bold;
+}
+
+
+.card-container {
+    width: 96%;
+    background-color: #3cb0cd;
+    border: 6px solid #115d7b;
+    border-radius: 40px;
+    padding: 40px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+}
+
+.form-label {
+    width: 95px;
+    color: #0b3954;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input-field {
+    flex: 1;
+    max-width: 320px;
+    padding: 6px 10px;
+    border: 2px solid #227695;
+    font-size: 14px;
+    outline: none;
+}
+
+.field-white {
+    background-color: #ffffff;
+}
+
+.field-green {
+    background-color: #c5efcb;
+}
+
+/* --- BOTÓN --- */
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-buscar {
+    width: 125px;
+    height: 125px;
+    background-color: #f2f2f2;
+    border: 2px solid #a4a4a4;
+    color: #133d75;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    cursor: pointer;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
+}
